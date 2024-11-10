@@ -190,3 +190,11 @@ blockquote footer {
   font-weight: 600;
   cursor: pointer;
 }
+
+#footer {
+  background-color: #1f2937;
+  text-align: center;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 3%;
+}

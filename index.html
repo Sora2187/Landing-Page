@@ -103,5 +103,17 @@
       </div>
       <button class="cta-button">Sign up</button>
     </section>
+
+    <footer id="footer">
+      <p>Copyright &copy; The Comic Pirate <span id="current-year"></span></p>
+    </footer>
+
+    <script>
+      // Get the current year
+      const year = new Date().getFullYear();
+
+      // Set the current year in the span
+      document.getElementById("current-year").textContent = year;
+    </script>
   </body>
 </html>
