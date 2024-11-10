@@ -113,6 +113,7 @@ button:active {
 
 .gallery-section h2 {
   padding: 50px;
+  color: #1f2937;
 }
 .image-gallery {
   display: flex;
