@@ -115,12 +115,14 @@ button:active {
   padding: 50px;
   color: #1f2937;
 }
+
 .image-gallery {
   display: flex;
   justify-content: space-around;
   gap: 20px;
   flex-wrap: wrap;
 }
+
 .image-gallery img {
   object-fit: cover;
   width: 200px;
@@ -130,4 +132,31 @@ button:active {
   align-items: center;
   border: solid #3882f6;
   border-radius: 5px;
+}
+
+.pirate-testimonials {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 10%;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0 10% 0 10%;
+}
+
+blockquote footer {
+  font-weight: bold;
+  font-style: normal;
+  justify-self: end;
+}
+
+.attribution {
+  font-weight: bold;
+  text-align: end;
 }
