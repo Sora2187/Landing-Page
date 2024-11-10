@@ -160,3 +160,33 @@ blockquote footer {
   font-weight: bold;
   text-align: end;
 }
+
+.cta-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10%;
+  padding: 50px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.cta-text {
+  color: #e5e7eb;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cta-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
